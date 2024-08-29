@@ -214,7 +214,7 @@ h2 {
 }
 
 .github { 
-    mask-image: url('github-icon-svgrepo-com.svg');
+    mask-image: url('./img/github-icon-svgrepo-com.svg');
     width: 60px;
     height: 60px;
     mask-repeat: no-repeat;
@@ -224,7 +224,7 @@ h2 {
 }
 
 .instagram { 
-    mask-image: url('instagram-svgrepo-com.svg');
+    mask-image: url('./img/instagram-svgrepo-com.svg');
     width: 60px;
     height: 60px;
     mask-repeat: no-repeat;
@@ -234,7 +234,7 @@ h2 {
 }
 
 .gmail { 
-    mask-image: url('gmail-svgrepo-com.svg');
+    mask-image: url('./img/gmail-svgrepo-com.svg');
     width: 60px;
     height: 60px;
     mask-repeat: no-repeat;
@@ -244,7 +244,7 @@ h2 {
 }
 
 .telephone { 
-    mask-image: url('telephone-receiver-material-2-svgrepo-com.svg');
+    mask-image: url('./img/telephone-receiver-material-2-svgrepo-com.svg');
     width: 60px;
     height: 60px;
     mask-repeat: no-repeat;
@@ -286,7 +286,7 @@ footer {
     color: var(--main-white);
 }
 
-/* Медиа-запросы для мобильных устройств (экраны до 768px шириной) */
+/* Media queries for mobile devices (screens up to 768px wide) */
 @media (max-width: 768px) {
     .nav {
         height: 60px;
@@ -369,7 +369,7 @@ footer {
     }
 }
 
-/* Дополнительные настройки для совсем маленьких экранов (до 480px шириной) */
+/* Additional settings for very small screens (up to 480px wide)*/
 @media (max-width: 480px) {
     .nav-li {
         padding: 15px;
